@@ -1,0 +1,190 @@
+/* ============ Tablets ============ */
+@media only screen and (min-width: 768px) {
+
+  /*responsive circle resizing*/
+  .circle {
+    border: 6px solid #ffcd00;
+    width: 25%;
+    top: 15%;
+    left: 2%;
+  }
+
+  .circle p:nth-child(1) {
+    position: absolute;
+    font-family: BreuerHeadline-Oblique;
+    color: white;
+    left: 16%;
+    top: 10%;
+    font-size: 200%;
+  }
+
+  .circle p:nth-child(2) {
+    left: 10%;
+    top: 22%;
+    font-size: 550%;
+  }
+
+  /*Header*/
+
+  #logo a {
+    width: 30%;
+    top: 7%;
+  }
+
+  header>a {
+    font-size: 100%;
+  }
+
+  header>span {
+    top: 6%;
+    right: 2%;
+  }
+
+
+ /*White section*/
+
+  #white .header {
+    margin: 0% 0% 2% 40%;
+    font-size: 150%;
+  }
+
+  /*Crystal Palace*/
+
+
+  #title p {
+    margin: -2% 0 0 10%;
+    padding: 0;
+    font-size: 400%;
+    line-height: 110%;
+  }
+
+  #title p:nth-child(1) {
+    margin-left: 23%;
+  }
+
+  #title p:nth-child(2) {
+    margin-left: 19%;
+  }
+
+  #title p:nth-child(3) {
+    font-size: 400%;
+    margin-top: -1.5%;
+    margin-right: 7%;
+  }
+
+
+  /*Minimum Bets*/
+
+  #details {
+    margin-left: 35%;
+    margin-right: 0;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    padding-left: 1%;
+    width: 55%;
+    display: block;
+  }
+
+  #details:after {
+    content: "";
+    background: red;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    z-index: 5;
+  }
+
+
+  #details p {
+    text-align: left;
+    line-height: 100%;
+    font-size: 120%;
+    padding: 0;
+  }
+
+
+  #details p:first-child {
+    margin: 2% 1% 1% 0.5%;
+  }
+
+  #details p:nth-child(2) {
+    font-size: 120%;
+    margin-bottom: 1%;
+  }
+
+  #details span {
+    font-size: 70%;
+  }
+
+  /*Register Button*/
+
+  #register {
+    margin-bottom: 6%;
+    position: relative;
+  }
+
+  #register input {
+    width: 25%;
+    margin: 1% 8% 2% 0;
+  }
+
+  #register button {
+    font-size: 200%;
+    width: 35%;
+  }
+
+  #register>p {
+    color: #184e76;
+    font-size: 75%;
+    position: absolute;
+    top: 27%;
+    left: 35%;
+
+  }
+
+  /*list section*/
+
+#list {
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+  #list li {
+    font-size: 110%;
+    /*margin-right: 20%;*/
+    /*margin-bottom: 10%;*/
+    text-align: left;
+    position: relative;
+    left: -10%;
+  }
+
+  #list span {
+    display: inline;
+  }
+
+  #list li:first-child span:first-child {
+    color: white;
+    border-bottom: none;
+    padding-bottom: 0;
+    display: inline-block;
+  }
+
+  #list ol {
+    top: -40%;
+    margin: 0;
+  }
+
+  .custom-counter li::before {
+    margin-right: 0;
+    font-size: 150%;
+    padding: 1px 10px;
+    border-radius: 50%;
+    border: 2px solid #ffcd00;
+    position: absolute;
+    left: -10%;
+    bottom: -30%;
+  }
+
+
+}  /* end of queries */

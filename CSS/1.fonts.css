@@ -1,0 +1,49 @@
+@font-face {
+    font-family: LatoLatin;
+    src: url(../fonts/LatoLatin-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoLatin-Bold;
+    src: url(../fonts/LatoLatin-Bold.ttf);
+}
+
+@font-face {
+    font-family: BreuerHeadline-Oblique;
+    src: url(../fonts/BreuerHeadline-Oblique.ttf);
+}
+
+@font-face {
+    font-family: BreuerText-Bold;
+    src: url(../fonts/BreuerText-Bold.ttf);
+}
+
+@font-face {
+    font-family: breuertext-bolditalic;
+    src: url(../fonts/breuertext-bolditalic-webfont.ttf);
+}
+
+@font-face {
+    font-family: BreuerText-Bold;
+    src: url(../fonts/BreuerText-Bold.ttf);
+}
+
+.breuer-bolditalic {
+  font-family: breuertext-bolditalic;
+}
+
+.breuer-ho {
+  font-family: BreuerHeadline-Oblique;
+}
+
+.breuer-bold {
+  font-family: BreuerText-Bold;
+}
+
+.lato-latin {
+  font-family: LatoLatin;
+}
+
+.lato-bold {
+  font-family: LatoLatin-Bold;
+}

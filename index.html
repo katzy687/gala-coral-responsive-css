@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" charset="utf-8">
+  <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/1.fonts.css">
+  <link rel="stylesheet" href="CSS/2.global-styles.css">
+  <link rel="stylesheet" href="CSS/3.iPhone_320px-queries.css">
+  <link rel="stylesheet" href="CSS/4.mobile375-540-queries.css">
+  <link rel="stylesheet" href="CSS/5.tablet768-queries.css">
+  <link rel="stylesheet" href="CSS/6.desktop992-queries.css">
+  <title>Gala-Cora</title>
+</head>
+
+<body>
+
+  <header>
+
+    <picture>
+      <source srcset="assets\Background.jpg" media="(min-width : 992px)">
+      <source srcset="assets\Tablet_Background.jpg" media="(min-width : 768px)">
+      <img id="background" srcset="assets\Mobile_Background.jpg" alt="background image" width="100%">
+    </picture>
+
+    <div id="logo">
+      <a href="http://www.coral.co.uk">
+        <img src="assets/Logo.png" alt="Coral Logo" width="60%" height="auto">
+      </a>
+    </div>
+
+    <a href="http://www.coral.co.uk">I’m already a customer</a>
+    <span class="lato-latin">></span>
+
+    <div id="desktop-content" class="bg-grad">
+    </div>
+
+    <!-- desktop view only -->
+    <img id="desktop-icon" src="assets/Graphics.png" alt="soccer">
+    
+  </header>
+
+
+  <section id="white" class="slanted">
+
+    <div class="circle">
+      <p>WAS 4/11</p>
+      <p>28/1</p>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- <div class="col-sm-8 col-xs-offset-4"> -->
+
+          <div class="bg-grad breuer-bolditalic header slanted-edge">New Customer Offer</div>
+
+          <div id="title" class="text-grad breuer-ho">
+              <p>Crystal Palace</p>
+              <p>to Beat Bolton</p>
+              <p class="parens">In 90 mins</p>
+          </div>
+
+          <div id="details" class="bg-grad lato-latin slanted-edge">
+            <p> £/€1 Bet Only | Minimum £/€ 5 Deposit
+              <br>PLUS £/€5 Free Bet should your bet lose
+            </p>
+
+            <p class="breuer-bolditalic">Winnings paid in free bets
+              <br><span>Available for a limited time. 18+ T&Cs Apply</span>
+            </p>
+          </div>
+
+          <form id="register">
+            <input type="text" name="email" placeholder="Email" value="">
+            <br>
+            <button class="slanted-edge breuer-bold" type="sumbit" name="button">Register Now >> </button>
+
+            <!-- mobile/tablet only -->
+            <p class="lato-bold" style="text-transform: none;">18+. Terms and Conditions Apply</p>
+          </form>
+
+
+
+          <!-- desktop only -->
+          <p id="desktop-disclaimer">Single Bets only, Cash Stake paid out at normal odds at the time of bet placement and additional enhancement paid in free bet tokens of £5 or less. Available between 17:00 Thursday 5th January and 15:00 Saturday 7th January </p>
+
+
+        <!-- </div> -->
+        <!-- bootstrap column -->
+      </div>
+    </div>
+  </section>
+
+
+  <section id="list" class="bg-grad lato-latin">
+    <ol class="custom-counter">
+      <li>
+        <span>Register</span>
+        <span>With Coral Today</span>
+      </li>
+      <li>
+        <span>Your Enhanced Odds</span>
+        <span>Will Display On The HomePage</span>
+      </li>
+      <li>
+        <span>Winnings Topped Up As a Free Bet</span>
+        <span>To Reflect The Enhanced Price</span>
+      </li>
+    </ol>
+
+
+  </section>
+
+
+  <section id="terms">
+
+    <p>18+. Terms Apply.</p>
+    <p>Bet Responsibly www.gambleware.co.uk</p>
+    <p>1. Offer available to UK & Republic of Ireland residents aged 18 years or over opening a new Online, Mobile or Telephone Coral account in either £/€ currency with the exception of new accounts depositing funds with Moneybookers, Paysafe, Neteller
+      or Skrill. 2. To qualify for this bet £/€5 get £/€20 in free bets offer, the first bet on your account after registration must be a real money sports bet of £/€5 Win or £/€5 Each-way or more at fractional odds of 1/2 (decimal odds 1.5) or greater.
+      3. The 4 x £/€5 free bets will be triggered by the placement of the qualifying bet and will not apply to subsequent bets. Void bets do not count towards this promotion. 4. The qualifying bet must be made within 14 days of account registration tTo
+      qualify. First sports bets placed after this duration will not qualify for this bet £/€5 get £/€20 in free bets offer. 5. Free bet token will expire 4 days after issue. 6. The free bet must be wagered in full, can be redeemed on win or each-way
+      bets and can be used on the following listed bet types: single, double, treble, 4-fold and upwards accumulator, forecast, combination. 7. Qualifying Bet and free bets cannot be used with Cash Out. 8. Free bet token is not valid on Football Jackpot,
+      tote, other combination and multiple bets (i.e Lucky 15s). 9. Free bet tokens are non-refundable. Free bet stake is not included in any returns. 10. Free bet tokens are not returned if wagered on a void selection. 11. This free bet offer cannot
+      be used in conjunction with, or contribute to any other coral.co.uk free bet offer or promotions. 12. For additional promotional terms click here. 13 .Promoter: Coral Interactive (Gibraltar) Limited, Suite 711, 1st Floor, Europort, Europort Road,
+      Gibraltar, GX11 1AA.</p>
+
+  </section>
+
+
+
+
+  <script src="node_modules\jquery\dist\jquery.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

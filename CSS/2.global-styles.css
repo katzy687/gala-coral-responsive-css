@@ -1,0 +1,198 @@
+/* ============ Global Rules ============ */
+
+header {
+  position: relative;
+}
+
+#desktop-disclaimer {
+  display: none;
+  position: absolute;
+  left: -999999px;
+}
+
+#desktop-content {
+  display: none;
+  position: absolute;
+  left: -999999px;
+}
+
+#desktop-icon {
+  display: none;
+  position: absolute;
+  left: -999999px;
+}
+
+
+
+.row {
+  position: relative;
+}
+
+.bg-grad {
+  background: #195078;
+  background: -webkit-linear-gradient(left, #195078, #2e89b6);
+  background: -o-linear-gradient(right, #195078, #2e89b6);
+  background: -moz-linear-gradient(right, #195078, #2e89b6);
+  background: linear-gradient(to right, #195078, #3194e1);
+  color: white;
+}
+
+.text-grad {
+  color: #2e89b6;
+  color: -webkit-linear-gradient(left, #195078, #2e89b6);
+  color: -o-linear-gradient(right, #195078, #2e89b6);
+  color: -moz-linear-gradient(right, #195078, #2e89b6);
+  color: linear-gradient(to right, #195078, #3194e1);
+}
+
+/*fonts*/
+
+#list {
+  font-family: LatoLatin;
+}
+
+#terms p {
+  font-family: LatoLatin;
+}
+
+#terms p:nth-child(-n+2) {
+  font-family: LatoLatin-Bold;
+}
+
+/*custom counter for ol*/
+.custom-counter {
+  list-style-type: none;
+}
+
+.custom-counter li {
+  counter-increment: step-counter;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.custom-counter li::before {
+  content: counter(step-counter);
+  margin-right: 20px;
+  font-size: 150%;
+  background-color: #195078;
+  color: #ffcd00;
+  padding: 1px 10px;
+  border-radius: 50%;
+  border: 2px solid #ffcd00;
+  position: absolute;
+  left: -20%;
+  bottom: -1%;
+}
+
+/*vertical slant*/
+.slanted {
+  background: inherit;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+
+.slanted:before {
+  content: "";
+  background: inherit;
+  height: 10%;
+  transform: skewY(-3deg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5%;
+  z-index: 1;
+}
+
+.slanted:after {
+  content: "";
+  background: #2e89b6;
+  background: -webkit-linear-gradient(left, #195078, #2e89b6);
+  background: -o-linear-gradient(right, #195078, #2e89b6);
+  background: -moz-linear-gradient(right, #195078, #2e89b6);
+  background: linear-gradient(to right, #195078, #3194e1);
+  height: 25%;
+  transform: skewY(-3deg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  z-index: 1;
+}
+
+/*horizontal slant*/
+.slanted-edge {
+  position: relative;
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  overflow: hidden;
+  /*background: inherit;*/
+  z-index: 3;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-7deg);
+  -ms-transform: skew(-7deg);
+  transform: skew(-7deg);
+}
+
+/*responsive circle*/
+.circle {
+  width: 33%;
+  border-radius: 50%;
+  border: 3px solid #ffcd00;
+  position: absolute;
+  z-index: 2;
+  top: -14%;
+  left: 34%;
+  background: #195078;
+  background: -webkit-linear-gradient(left, #195078, #2e89b6);
+  background: -o-linear-gradient(right, #195078, #2e89b6);
+  background: -moz-linear-gradient(right, #195078, #2e89b6);
+  background: linear-gradient(to right, #195078, #3194e1);
+}
+
+.circle:after {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
+
+
+.circle p:nth-child(1) {
+  margin: 0;
+  position: absolute;
+  left: -999999px;
+}
+
+.circle p:nth-child(2) {
+  margin: 0;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  color: #ffcd00;
+  font-size: 350%;
+  font-family: BreuerHeadline-Oblique;
+}
+
+a {
+  cursor: pointer;  /* Not working? */
+}
+
+/*add parens class*/
+.parens {
+}
+
+.parens:before {
+  content: "(";
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.parens:after {
+  content: ")";
+  font-size: inherit;
+  font-family: inherit;
+}
